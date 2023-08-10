@@ -9,6 +9,7 @@ _PROJECTS = {
     "point_rend": "PointRend",
     "deeplab": "DeepLab",
     "panoptic_deeplab": "Panoptic-DeepLab",
+    "point_group_sam": "PointGroupSAM",
 }
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent / "projects"
 

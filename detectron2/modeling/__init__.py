@@ -1,6 +1,9 @@
 # Copyright (c) Facebook, Inc. and its affiliates.
 from detectron2.layers import ShapeSpec
 
+# by zwz
+from .prompt_encoder import PROMPT_ENCODER_REGISTRY, build_prompt_encoder
+
 from .anchor_generator import build_anchor_generator, ANCHOR_GENERATOR_REGISTRY
 from .backbone import (
     BACKBONE_REGISTRY,

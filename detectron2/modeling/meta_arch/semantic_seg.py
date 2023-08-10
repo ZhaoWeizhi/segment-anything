@@ -130,8 +130,8 @@ class SemanticSegmentor(nn.Module):
             processed_results.append({"sem_seg": r})
         return processed_results
 
-
-def build_sem_seg_head(cfg, input_shape):
+# by zwz: =None
+def build_sem_seg_head(cfg, input_shape=None):
     """
     Build a semantic segmentation head from `cfg.MODEL.SEM_SEG_HEAD.NAME`.
     """

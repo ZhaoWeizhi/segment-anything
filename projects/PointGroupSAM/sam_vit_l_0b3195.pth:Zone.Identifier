@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/ZhaoWeizhi/segment-anything
+HostUrl=https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth
